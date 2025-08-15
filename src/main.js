@@ -12,7 +12,7 @@ function init() {
 
   // setting up environment map
   const rgbeLoader = new RGBELoader();
-  rgbeLoader.load("./static/textures/4k.hdr", (environmentMap) => {
+  rgbeLoader.load("./public/textures/4k.hdr", (environmentMap) => {
     environmentMap.mapping = THREE.EquirectangularReflectionMapping;
     scene.background = environmentMap;
     scene.environment = environmentMap;
