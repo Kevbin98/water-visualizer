@@ -1,4 +1,4 @@
-const audioSrc = new Audio("./public/audio/shineNCS.mp3");
+const audioSrc = new Audio("/audio/shineNCS.mp3");
 audioSrc.crossOrigin = "anonymous";
 
 const audioContext = new (window.AudioContext || window.webkitAudioContext)();

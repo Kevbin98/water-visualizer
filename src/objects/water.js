@@ -9,7 +9,7 @@ import GUI from "lil-gui";
  */
 export default function createWater({
   size = 200, // plane size
-  texturePath = "/public/textures/water/waterNormal.jpg",
+  texturePath = "/textures/water/waterNormal.jpg",
   sunDirection = new THREE.Vector3(1, 1, 1), // rough “sun” direction for highlights
   sunColor = 0xffffff,
   waterColor = 0x001e0f,
