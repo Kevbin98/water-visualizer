@@ -19,6 +19,8 @@ export default function createWater({
   // Geometry
   const geometry = new THREE.PlaneGeometry(size, size, 1, 1);
 
+  console.log("loaded", texturePath);
+
   // Tiling normal map
   const waterNormals = new THREE.TextureLoader().load(
     texturePath,

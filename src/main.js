@@ -59,7 +59,7 @@ function init() {
 
   const water = createWater({
     size: 2000,
-    texturePath: "/static/textures/water/waterNormal.jpg",
+    texturePath: "/textures/water/waterNormal.jpg",
   });
   water.receiveShadow = true;
 
