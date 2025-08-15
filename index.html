@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/src/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <canvas class="webgl"></canvas>
+    <div class="ui">
+      <button id="play">play</button>
+      <button id="pause">pause</button>
+      <input id="vol" type="range" min="0" max="1" step="0.01" value="1" />
+      <div class="song"><p id="song"></p></div>
+
+      <form action="" method="post" enctype="multipart/form-data">
+        <label for="file" class="btn">Upload audio</label>
+        <input id="file" type="file" accept="audio/*" hidden />
+      </form>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
